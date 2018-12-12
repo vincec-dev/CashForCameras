@@ -23,6 +23,10 @@ let black = #111;
 	font-size: 28px;
 }
 
+/* #section-faqs {
+	line-height: 2.25;
+} */
+
 .email-li {
 	list-style-position: inside;
 	margin-left: 20px;
@@ -232,7 +236,7 @@ let black = #111;
 
 
 body,
-.dropdown-menu { font-size: 0.875rem; }
+.dropdown-menu { font-size: 1rem; }
 
 
 /* ----------------------------------------------------------------
@@ -283,8 +287,9 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #111;
-	font-family: 'Encode Sans Expanded', sans-serif;
+	color: #363636;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
 }
 
 a {
@@ -3646,7 +3651,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-color: #FFF;
 }
 
-#content p { line-height: 1.8; }
+#content p { line-height: 1.70; }
 
 .content-wrap {
 	position: relative;
