@@ -61,6 +61,12 @@ let black = #111;
 }
 
 /* ----------------------------------------------------------------
+	How it Works Page
+-----------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------
 	Seo Demo CSS (copied from seo.css file)
 -----------------------------------------------------------------*/
 
@@ -11454,7 +11460,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block > span:not(.before-heading) {
 	display: block;
 	margin-top: 10px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #777;
 }
 
