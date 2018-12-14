@@ -1290,7 +1290,7 @@ body.stretched #header.full-header .container {
 	line-height: 22px;
 	padding: 39px 15px;
 	color: #444;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -1825,7 +1825,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 }
 
 .overlay-menu #primary-menu > ul > li > a {
-	font-size: 24px;
+	font-size: 21px;
 	padding-top: 19px;
 	padding-bottom: 19px;
 	letter-spacing: 2px;
