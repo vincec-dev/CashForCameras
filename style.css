@@ -75,6 +75,15 @@ let black = #111;
 }
 
 /* ----------------------------------------------------------------
+	Contact Us Page
+-----------------------------------------------------------------*/
+
+#contact-us-form input, textarea {
+	border: 0px;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+/* ----------------------------------------------------------------
 	Seo Demo CSS (copied from seo.css file)
 -----------------------------------------------------------------*/
 
@@ -11213,7 +11222,7 @@ body:not(.device-touch) .text-overlay {
 	color: #555555;
 	background-color: #ffffff;
 	background-image: none;
-	border: 2px solid #DDD;
+	/* border: 2px solid #DDD; */
 	border-radius: 0 !important;
 	-webkit-transition: border-color ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s;
