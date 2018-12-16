@@ -73,10 +73,6 @@
 
 		</header><!-- #header end -->
 
-    <!-- Google Map
-		============================================= -->
-    <section id="google-map" class="gmap" style="height: 350px"></section>
-
 		<!-- Page Sub Menu
 		============================================= -->
 		<div id="page-menu">
@@ -85,7 +81,7 @@
 
 				<div class="container clearfix">
 
-					<div class="menu-title center">Send Us A <span>Message</span></div>
+					<div class="menu-title">Contact <span>Us</span></div>
 
 				</div>
 
@@ -95,108 +91,201 @@
 
     <!-- Content
   ============================================= -->
-  <section id="content">
+  <section id="content" style="background: url('images/subtle_dots.png') repeat">
 
     <div class="content-wrap">
 
+      <div class="container bottommargin-lg">
+        <!-- Contact Info
+        ============================================= -->
+        <div class="row clear-bottommargin">
+
+          <div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-line-mail" id="contact-icon"></i></a>
+							</div>
+							<h3>Email</h3>
+							<p>support@cashforcameras.com</p>
+						</div>
+					</div>
+
+          <div class="col_one_third col_last">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-phone2" id="contact-icon"></i></a>
+							</div>
+							<h3>Call</h3>
+							<p>773-222-1111</p>
+						</div>
+					</div>
+
+        </div><!-- Contact Info End -->
+      </div>
+
       <div class="container clearfix">
 
-        <!-- Sidebar
+        <!-- Contact Form
+					============================================= -->
+					<div class="col_three_fifth">
+
+						<div class="fancy-title title-dotted-border">
+							<h3>Send us a Message</h3>
+						</div>
+
+						<div class="contact-widget" id="contact-us-form">
+
+							<div class="contact-form-result"></div>
+
+							<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+								<div class="form-process"></div>
+
+								<div class="col_one_third">
+									<label for="template-contactform-name">Name <small>*</small></label>
+									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+								</div>
+
+								<div class="col_one_third">
+									<label for="template-contactform-email">Email <small>*</small></label>
+									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+								</div>
+
+								<div class="col_one_third col_last">
+									<label for="template-contactform-phone">Phone</label>
+									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+								</div>
+
+								<div class="clear"></div>
+
+								<div class="col_full">
+									<label for="template-contactform-subject">Subject <small>*</small></label>
+									<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
+								</div>
+
+								<!-- <div class="col_one_third col_last">
+									<label for="template-contactform-service">Services</label>
+									<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+										<option value="">-- Select One --</option>
+										<option value="Wordpress">Wordpress</option>
+										<option value="PHP / MySQL">PHP / MySQL</option>
+										<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+										<option value="Graphic Design">Graphic Design</option>
+									</select>
+								</div> -->
+
+								<div class="clear"></div>
+
+								<div class="col_full">
+									<label for="template-contactform-message">Message <small>*</small></label>
+									<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+								</div>
+
+								<div class="col_full hidden">
+									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+								</div>
+
+								<div class="col_full">
+
+									<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+									<div class="g-recaptcha" data-sitekey="6LfijgUTAAAAACPt-XfRbQszAKAJY0yZDjjhMUQT"></div>
+
+								</div>
+
+								<div class="col_full">
+									<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d nomargin">Submit Comment</button>
+								</div>
+
+							</form>
+						</div>
+
+					</div><!-- Contact Form End -->
+
+        <!-- Google Map
         ============================================= -->
-        <div class="sidebar nobottommargin">
+        <div class="col_two_fifth col_last">
 
-          <span>
-            Please checkout our <a href="#">Frequently Asked Questions</a> page.<br><br> 
-            If you still need help, simply send us a message and a customer service agent will be glad to assist you.<br>
-            <br>
-          </span>
-          <!-- <abbr title="Phone Number"><strong>Phone</strong></abbr><br>
-          <span>1 (877) 500-4439 </span><br><br>
-          <abbr title="Email Address"><strong>Email</strong></abbr><br>
-          <span>support@cashforcameras.com</span>
-          <br><br>
-          <address>
-            <strong>Headquarters:</strong><br>
-            3944 Murphy Canyon Road, C105<br>
-            San Diego, CA 92123<br>
-          </address> -->
+          <div class="feature-box fbox-plain bottommargin">
+            <div class="fbox-icon">
+              <a href="#"><i class="icon-location" id="contact-icon"></i></a>
+            </div>
+            <h3>Visit</h3>
+            <p>3944 Murphy Canyon Rd C105<br>
+            San Diego, CA 92123</p>
+          </div>
 
-        </div><!-- .sidebar end -->
+          <section id="google-map" class="gmap" style="height: 410px;"></section>
 
-        <!-- Postcontent
-        ============================================= -->
-        <div class="postcontent nobottommargin col_last" id="contact-us-form">
+        </div><!-- Google Map End -->
 
-          <div class="contact-widget">
+        <div class="clear"></div>
 
-            <div class="contact-form-result"></div>
+      </div>
 
-            <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+      <!-- Frequently Asked Questions
+      ============================================= -->
 
-              <div class="form-process"></div>
+      <div id="section-faqs" class="page-section py-1 container">
 
-              <div class="col_one_third">
-                <label for="template-contactform-name">Name <small>*</small></label>
-                <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
-              </div>
+          <h2 class="center font-body bottommargin-lg">Frequently Asked Questions</h2>
 
-              <div class="col_one_third">
-                <label for="template-contactform-email">Email <small>*</small></label>
-                <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-              </div>
+          <div class="row topmargin-sm clearfix">
 
-              <div class="col_one_third col_last">
-                <label for="template-contactform-phone">Phone</label>
-                <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
-              </div>
-
-              <div class="clear"></div>
-
-              <div class="col_full">
-                <label for="template-contactform-subject">Subject <small>*</small></label>
-                <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
-              </div>
-
-              <!-- <div class="col_one_third col_last">
-                <label for="template-contactform-service">Services</label>
-                <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
-                  <option value="">-- Select One --</option>
-                  <option value="Wordpress">Wordpress</option>
-                  <option value="PHP / MySQL">PHP / MySQL</option>
-                  <option value="HTML5 / CSS3">HTML5 / CSS3</option>
-                  <option value="Graphic Design">Graphic Design</option>
-                </select>
-              </div> -->
-
-              <div class="clear"></div>
-
-              <div class="col_full">
-                <label for="template-contactform-message">Message <small>*</small></label>
-                <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-              </div>
-
-              <div class="col_full hidden">
-                <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-              </div>
-
-              <div class="col_full">
-
-                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                <div class="g-recaptcha" data-sitekey="6LfijgUTAAAAACPt-XfRbQszAKAJY0yZDjjhMUQT"></div>
-
-              </div>
-
-              <div class="col_full">
-                <button class="button button-border button-rounded button-fill button-black button-medium" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
-              </div>
-
-            </form>
+            <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">How does the process work?</h4>
+              <ol>
+                  <li>Fill out our <a href="#">Free Cash Offer Quote</a> form <a href="#">HERE</a>.</li>
+                  <li>Within 2 business days you will receive an email from CashForCameras that will include: </li>
+                  <ul>
+                    <li class="email-li">Our cash offer.</li>
+                    <li class="email-li">A link to lock your offer for 30 days.</li>
+                    <li class="email-li">A link to print your FREE shipping label.</li>
+                    <li class="email-li">Packaging instructions.</li>
+                  </ul>
+                  <li>Using your FREE shipping label, ship your equipment within 30 days.</li>
+                  <li>Once we receive your equipment, you will receive payment within 2-5 business days.</li>
+                </ol>
+            </div>
+            <div class="col-lg-5 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">How would I get paid?</h4>
+              <p>Once we receive your equipment, you will receive payment within 2-5 business days. Get paid instantly and securely via PayPal, or request a check payment. Check payments are mailed quickly and are U.S. Bank verified business checks. Expedited check mailing options are available by request for additional cost.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">How much is my equipment worth?</h4>
+              <p>Fill out our <a href="#">Free Cash Offer</a> form <a href="#">HERE</a> to find out how much cash we can offer you for your equipment.</p>
+            </div>
+            <div class="col-lg-5 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">How does shipping work?</h4>
+              <p> We will provide a FREE shipping label and packaging instructions.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">How long is my cash offer good for?</h4>
+              <p>Your quote is valid for 30 days after you receive it. If you need more time, contact us for an extension. At any point, you can cancel the sale and request that your equipment be returned to you. We'll even pay for return shipping!</p>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <h4 class="font-body" style="margin-bottom:15px;">How should I pack my item for shipping?</h4>
+              <p class="nobottommargin">To meet shipping insurance eligibility, packages sent to CashForCameras must be shipped with 3-4" of padding on all sides, in a secure tightly packed box with no loose items that can rattle around and cause damage during shipping. <a href="#">CLICK HERE</a> to view our shipping instructions.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">What happens if my equipment gets damaged when I ship it?</h4>
+              <p>All shipments are fully insured via Fedex. If your equipment arrives broken or with major damage that you were not aware of, we will file a shipping insurance claim on your behalf and do everything we can to get you paid in FULL. CashForCameras will review how the item was packaged and will solely determine if your claim is eligible for payment. If your item was properly packaged, then the shipping insurance claim will be approved, and you will be paid in full for your original cash offer.</p>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <h4 class="font-body" style="margin-bottom:15px;">What happens if the equipment I am selling is determined to be “not as described” by CashForCameras?</h4>
+              <p class="nobottommargin">If your equipment is determined to be "not as described”, we will email you and tell you how it differs from your description. We will give you an updated quote based upon the actual condition. We will even include photos of any damage. Most of the time our customers agree with our revised quote as we always try to be fair. If you are not satisfied, then we can return the item to you at no additional cost.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+              <h4 class="font-body" style="margin-bottom:15px;">Can I trust your website?</h4>
+              <p>We have over a decade of positive customer feedback and have paid out over $1.5 Million USDs to sellers like you from across America. Established on October 9th, 2002 on eBay, we've earned a prestigious 100% positive feedback rating over 5,000 positive customer reviews and 100% positive rating.</p>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <h4 class="font-body" style="margin-bottom:15px;">I have a shipping label provided by CashForCameras that is 2 weeks old. Can I still use it for shipping?</h4>
+              <p class="nobottommargin">Yes, Fedex will accept the label up to 30 days after the ship date listed on the label. Please CLICK HERE to view our shipping instructions.</p>
+            </div>
 
           </div>
 
-        </div><!-- .postcontent end -->
-
-      </div>
+        </div>
 
     </div>
 
@@ -350,7 +439,171 @@
 				scaleControl: false,
 				streetViewControl: false,
 				overviewMapControl: false
-			}
+			},
+      style: [
+    {
+        "featureType": "administrative.locality",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#2c2e33"
+            },
+            {
+                "saturation": 7
+            },
+            {
+                "lightness": 19
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#ffffff"
+            },
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#ffffff"
+            },
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 100
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": 31
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": 31
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": -2
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": -90
+            },
+            {
+                "lightness": -8
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": 10
+            },
+            {
+                "lightness": 69
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": -78
+            },
+            {
+                "lightness": 67
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    }
+]
 		});
 
 	</script>
