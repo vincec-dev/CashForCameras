@@ -71,7 +71,7 @@ let black = #111;
 #mission-text {
 	font-family: Caveat;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 34px;
 }
 
 /* ----------------------------------------------------------------
@@ -761,9 +761,9 @@ span.middot {
 .col_one_third { width: 30.63%; }
 .col_two_third { width: 65.33%; }
 .col_one_fourth,
-.sidebar { width: 22%; }
+.sidebar { width: 30%; }
 .col_three_fourth,
-.postcontent { width: 74%; }
+.postcontent { width: 66%; }
 .col_one_fifth { width: 16.8%; }
 .col_two_fifth { width: 37.6%; }
 .col_three_fifth { width: 58.4%; }
@@ -2395,7 +2395,7 @@ body.top-search-open #top-account { opacity: 0; }
 }
 
 #page-menu .menu-title {
-	float: left;
+	float: center;
 	color: #FFF;
 	font-size: 20px;
 	font-weight: 300;
