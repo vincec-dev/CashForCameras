@@ -2,6 +2,10 @@
 	Cash For Cameras Custom Classes
 -----------------------------------------------------------------*/
 
+#transparent {
+	background-color: red;
+}
+
 /* ----------------------------------------------------------------
 	Home Page
 -----------------------------------------------------------------*/
@@ -65,13 +69,14 @@ let black = #111;
 -----------------------------------------------------------------*/
 
 #mission-h2 {
-	color: #1c85e8;
+	color: black;
 }
 
 #mission-text {
+	color: black;
 	font-family: Caveat;
 	font-weight: 400;
-	font-size: 34px;
+	font-size: 35px;
 }
 
 /* ----------------------------------------------------------------
@@ -89,6 +94,15 @@ let black = #111;
 
 #contact-icon {
 	font-size: 30px;
+}
+
+/* ----------------------------------------------------------------
+	FAQ Page
+-----------------------------------------------------------------*/
+
+.answer-text {
+	font-size: 19px;
+	font-weight: 400;
 }
 
 /* ----------------------------------------------------------------
@@ -491,7 +505,7 @@ span.middot {
 
 .topmargin-lg { margin-top: 80px !important; }
 
-.bottommargin-lg { margin-bottom: 100px !important; }
+.bottommargin-lg { margin-bottom: 120px !important; }
 
 .clear-bottommargin-lg { margin-bottom: -80px !important; }
 
