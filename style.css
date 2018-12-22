@@ -106,6 +106,60 @@ let black = #111;
 }
 
 /* ----------------------------------------------------------------
+	About Us Page
+-----------------------------------------------------------------*/
+
+#team-pic {
+	border-radius: 10px;
+	margin: 80px 50px;
+}
+
+.man {
+	margin-left: 12%;
+}
+
+#quote-text {
+	font-size: 20px;
+	font-weight: 400;
+}
+/* Gallery Grid
+-----------------------------------------------------------------*/
+
+.masonry-thumbs a i {
+	opacity: 0;
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	color: rgba(255, 255, 255, 0.7);
+	z-index: 99;
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 5px;
+	font-size: 14px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: transform .4s ease;
+	-o-transition: transform .4s ease;
+	transition: transform .4s ease;
+	-webkit-backface-visibility: hidden;
+}
+
+.masonry-thumbs a:hover i {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+/* ----------------------------------------------------------------
 	Seo Demo CSS (copied from seo.css file)
 -----------------------------------------------------------------*/
 
@@ -12210,7 +12264,7 @@ button.toast-close-button {
 
 #footer {
 	position: relative;
-	background-image: linear-gradient(90deg, #232526, #414345);
+	background-image: linear-gradient(90deg, #151616, #414345);
 	border-top: 5px solid rgba(0,0,0,0.2);
 }
 
