@@ -42,6 +42,7 @@ let black = #111;
 
 #testi-text {
 	font-size: 20px;
+	font-weight: 700 !important;
 	text-align: left;
 	color: #000
 }
@@ -122,6 +123,41 @@ let black = #111;
 	font-size: 20px;
 	font-weight: 400;
 }
+
+/* ----------------------------------------------------------------
+	Customer Reviews Page
+-----------------------------------------------------------------*/
+
+.ebay-font {
+	font-size: 58px;
+	font-family: Helvetica Neue;
+	font-weight: 400;
+	letter-spacing: -3px;
+}
+
+.google-font {
+	font-size: 58px;
+	font-family: Cantarell;
+	font-weight: 400;
+	letter-spacing: -4px;
+}
+
+.yelp-font {
+	color: #050505;
+	font-size: 58px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 400;
+	letter-spacing: -3px;
+}
+
+.bbb-font {
+	color: #005B78;
+	font-size: 58px;
+	font-family: Helvetica;
+	font-weight: 700;
+	letter-spacing: -5px;
+}
+
 /* Gallery Grid
 -----------------------------------------------------------------*/
 
@@ -168,7 +204,7 @@ let black = #111;
 .testimonials-carousel .owl-stage { padding-top: 40px }
 
 .testimonials-carousel .owl-item {
-	opacity: .6;
+	/* opacity: .95; */
 	transition: transform .3s ease;
 	transform: scale(0.8);
 }
@@ -9879,19 +9915,20 @@ body:not(.device-touch) .clients-grid li a {
 	display: block;
 	width: 64px;
 	height: 64px;
+	opacity: .85;
 }
 
 .testi-image i {
 	text-align: center;
 	background-color: #EEE;
-	border-radius: 50%;
+	border-radius: ;
 	line-height: 64px;
 	font-size: 28px;
 	color: #888;
 	text-shadow: 1px 1px 1px #FFF;
 }
 
-.testi-image img { border-radius: 50%; }
+.testi-image img { border-radius: ; }
 
 .testi-content {
 	position: relative;
@@ -9920,7 +9957,7 @@ body:not(.device-touch) .clients-grid li a {
 	display: block;
 	font-weight: normal;
 	color: #999;
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: none;
 	padding-left: 10px;
 }
