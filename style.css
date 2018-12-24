@@ -41,29 +41,88 @@ let black = #111;
 }
 
 #testi-text {
-	font-size: 20px;
-	font-weight: 700 !important;
+	font-size: 17px;
+	font-weight: 400 !important;
 	text-align: left;
 	color: #000
 }
 
 #sign-up {
 	padding: 110px 0;
-	background-image: linear-gradient(to right, #ffffff, #eef2f3);
+	background: url('images/gplaypattern.png') repeat;
 }
 
 .footer-logo-text {
 	color: #f7f7f7;
 	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 #priv-term-text {
-	color: white
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 #priv-term-text:hover {
 	color: #1c85e8;
 }
+
+/* Customer Reviews Carousel
+-----------------------------------------------------------------*/
+
+.testimonials-carousel .owl-item {
+	opacity: 0.25;
+	transform: scale(.9);
+	-webkit-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+
+.testimonials-carousel .owl-item.active.center {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.testimonials-carousel .owl-item {
+	opacity: 0.25;
+	transform: scale(.9);
+	-webkit-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+
+.testimonials-carousel .owl-item.active.center {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.owl-stage-outer:before,
+.owl-stage-outer:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	z-index: 1;
+	background: -moz-linear-gradient(left, rgba(249,249,249,1) 52%, rgba(249,249,249,0.06) 90%, rgba(249,249,249,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(249,249,249,1) 52%,rgba(249,249,249,0.06) 90%,rgba(249,249,249,0) 100%);
+	background: linear-gradient(to right, rgba(249,249,249,1) 52%,rgba(249,249,249,0.06) 90%,rgba(249,249,249,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00f9f9f9',GradientType=1 );
+}
+
+.owl-stage-outer:after {
+	left: auto;
+	right: 0;
+	background: -moz-linear-gradient(right, rgba(249,249,249,1) 52%, rgba(249,249,249,0.06) 90%, rgba(249,249,249,0) 100%);
+	background: -webkit-linear-gradient(right, rgba(249,249,249,1) 52%,rgba(249,249,249,0.06) 90%,rgba(249,249,249,0) 100%);
+	background: linear-gradient(to left, rgba(249,249,249,1) 52%,rgba(249,249,249,0.06) 90%,rgba(249,249,249,0) 100%);
+}
+
+.owl-stage-outer:before,
+.owl-stage-outer:after { display: none; }
 
 /* ----------------------------------------------------------------
 	Our Environmental Mission Page
@@ -107,6 +166,14 @@ let black = #111;
 }
 
 /* ----------------------------------------------------------------
+	How it Works Page
+-----------------------------------------------------------------*/
+
+#step-text {
+	font-size: 15px;
+}
+
+/* ----------------------------------------------------------------
 	About Us Page
 -----------------------------------------------------------------*/
 
@@ -129,14 +196,14 @@ let black = #111;
 -----------------------------------------------------------------*/
 
 .ebay-font {
-	font-size: 58px;
+	font-size: 62px;
 	font-family: Helvetica Neue;
 	font-weight: 400;
 	letter-spacing: -3px;
 }
 
 .google-font {
-	font-size: 58px;
+	font-size: 62px;
 	font-family: Cantarell;
 	font-weight: 400;
 	letter-spacing: -4px;
@@ -144,7 +211,7 @@ let black = #111;
 
 .yelp-font {
 	color: #050505;
-	font-size: 58px;
+	font-size: 62px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 400;
 	letter-spacing: -3px;
@@ -152,7 +219,7 @@ let black = #111;
 
 .bbb-font {
 	color: #005B78;
-	font-size: 58px;
+	font-size: 62px;
 	font-family: Helvetica;
 	font-weight: 700;
 	letter-spacing: -5px;
@@ -219,7 +286,7 @@ let black = #111;
 	box-shadow: 0 0 35px rgba(140, 152, 164, 0.2);
 	border-radius: 0.25rem;
 	padding: 25px;
-	min-height: 335px;
+	/* min-height: 335px; */
 }
 
 .testi-image {
@@ -423,8 +490,8 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #363636;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 500;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
 }
 
 a {
@@ -453,7 +520,7 @@ h4,
 h5,
 h6 {
 	color: #444;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
 	font-family: 'Encode Sans Expanded', sans-serif;
@@ -462,7 +529,7 @@ h6 {
 h5,
 h6 { margin-bottom: 20px; }
 
-h1 { font-size: 36px; }
+h1 { font-size: 34px; }
 
 h2 { font-size: 30px; }
 
@@ -3353,7 +3420,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-caption h2 {
 	color: #111111;
-	font-size: 2.0rem;
+	font-size: 2.5rem;
 	letter-spacing: 1px;
 	/* text-transform: uppercase; */
 	font-weight: 500;
@@ -6848,7 +6915,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	height: 40px;
 	line-height: 40px;
 	background-color: #1c85e8;
-	color: #111111;
+	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -6900,8 +6967,8 @@ body:not(.device-touch) .button {
 }
 
 .button.button-xlarge {
-	padding: 0 32px;
-	font-size: 18px;
+	padding: 0 22px;
+	font-size: 16px;
 	letter-spacing: 2px;
 	height: 52px;
 	line-height: 52px;
@@ -7768,7 +7835,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box p {
 	margin: 8px 0 0 0;
-	color: #999;
+	color: #424242;
 }
 
 .feature-box .before-heading { font-size: 14px; }
@@ -7980,7 +8047,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-center.fbox-outline .fbox-icon i { line-height: 88px; }
 
 .feature-box.fbox-center p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 15px;
 }
 
@@ -9913,9 +9980,9 @@ body:not(.device-touch) .clients-grid li a {
 .testi-image img,
 .testi-image i {
 	display: block;
-	width: 64px;
-	height: 64px;
-	opacity: .85;
+	width: 48px;
+	height: 48px;
+	opacity: .75;
 }
 
 .testi-image i {
@@ -9937,8 +10004,8 @@ body:not(.device-touch) .clients-grid li a {
 
 .testi-content p {
 	margin-bottom: 0;
-	font-family: 'Crete Round', serif;
-	font-style: italic;
+	font-family: 'Karla', sans-serif;
+	/* font-style: italic; */
 }
 
 .testi-content p:before,
@@ -9996,8 +10063,8 @@ body:not(.device-touch) .clients-grid li a {
 .testimonial-full .testi-image img,
 .testimonial-full .testi-image i {
 	display: block;
-	width: 72px;
-	height: 72px;
+	width: 48px;
+	height: 48px;
 }
 
 .testimonial-full .testi-image i { line-height: 72px; }
@@ -11189,7 +11256,7 @@ blockquote.float-right {
 	color: rgba(255, 255, 255, 0.7);
 }
 
-.owl-carousel .owl-stage { padding: 20px 0; }
+.owl-carousel .owl-stage { padding: 10px 0 20px 0; }
 
 
 /* ----------------------------------------------------------------
@@ -11606,7 +11673,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	margin-right: auto;
 }
 
-.heading-block h1 + span { font-size: 24px; }
+.heading-block h1 + span { font-size: 20px; }
 
 .heading-block h2 + span { font-size: 22px; }
 
