@@ -27,6 +27,13 @@ let black = #111;
 	font-size: 28px;
 }
 
+/* .step-p {
+	text-align: justify;
+	max-width: 285px;
+	-moz-text-align-last: center;
+  text-align-last: center;
+} */
+
 /* #section-faqs {
 	line-height: 2.25;
 } */
@@ -165,12 +172,29 @@ let black = #111;
 	font-weight: 400;
 }
 
+.bottommargin-faq {
+	margin-bottom: 145px;
+}
+
 /* ----------------------------------------------------------------
 	How it Works Page
 -----------------------------------------------------------------*/
 
 #step-text {
 	font-size: 15px;
+}
+
+#email-items {
+	margin-left: 60px;
+	color: #666;
+}
+
+#step-1-box {
+	height: 410px;
+}
+
+#step-3-box {
+	height: 340px;
 }
 
 /* ----------------------------------------------------------------
@@ -187,13 +211,29 @@ let black = #111;
 }
 
 #quote-text {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
+	font-family: 'Jura', sans-serif;
+}
+
+.value-subtext {
+	font-size: 21px;
+	font-weight: 500;
+	/* font-family: 'Montserrat', sans-serif; */
+}
+
+.value-subtext li {
+	margin-bottom: 15px !important;
 }
 
 /* ----------------------------------------------------------------
 	Customer Reviews Page
 -----------------------------------------------------------------*/
+
+.page-title-sub {
+	font-size: 20px;
+	font-weight: 600;
+}
 
 .ebay-font {
 	font-size: 62px;
@@ -219,10 +259,10 @@ let black = #111;
 
 .bbb-font {
 	color: #005B78;
-	font-size: 62px;
+	font-size: 45px;
 	font-family: Helvetica;
 	font-weight: 700;
-	letter-spacing: -5px;
+	letter-spacing: -2px;
 }
 
 /* Gallery Grid
@@ -662,7 +702,7 @@ span.middot {
 
 .topmargin-lg { margin-top: 80px !important; }
 
-.bottommargin-lg { margin-bottom: 120px !important; }
+.bottommargin-lg { margin-bottom: 80px !important; }
 
 .clear-bottommargin-lg { margin-bottom: -80px !important; }
 
@@ -10013,9 +10053,9 @@ body:not(.device-touch) .clients-grid li a {
 
 .testi-meta {
 	margin-top: 10px;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .testi-meta:before { content: '\2013'; }

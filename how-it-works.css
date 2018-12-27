@@ -75,7 +75,7 @@
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 .story-box .story-box-image {
@@ -102,7 +102,7 @@
 .story-box .story-box-info {
 	box-sizing: border-box;
 	width: 50%;
-	height: 430px;
+	height: auto;
 	padding: 60px;
 	margin: 35px 0 0 -20%;
 	background: #fff;
@@ -129,7 +129,7 @@
 }
 
 .story-box .story-box-info .story-box-content p {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #666;
 	line-height: 16px;
