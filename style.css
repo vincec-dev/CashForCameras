@@ -173,7 +173,16 @@ let black = #111;
 }
 
 .bottommargin-faq {
-	margin-bottom: 145px;
+	margin-bottom: 55px;
+}
+
+#faq-listed {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.listed-step {
+	margin-bottom: 10px !important;
 }
 
 /* ----------------------------------------------------------------
@@ -211,9 +220,22 @@ let black = #111;
 }
 
 #quote-text {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
-	font-family: 'Jura', sans-serif;
+	font-style: italic;
+}
+
+#jeff-name {
+	font-size: 28px;
+	color: black;
+}
+
+#jeff-title {
+	font-size: 20px;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 1px;
+	line-height: 2em;
 }
 
 .value-subtext {
@@ -231,8 +253,9 @@ let black = #111;
 -----------------------------------------------------------------*/
 
 .page-title-sub {
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 23px;
+	font-weight: 500;
+	letter-spacing: 2px;
 }
 
 .ebay-font {
@@ -1523,14 +1546,14 @@ body.stretched #header.full-header .container {
 
 #primary-menu ul li > a {
 	display: block;
-	line-height: 22px;
+	line-height: 26px;
 	padding: 39px 15px;
 	color: #444;
 	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
