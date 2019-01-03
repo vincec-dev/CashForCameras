@@ -140,10 +140,14 @@ let black = #111;
 }
 
 #mission-text {
-	color: black;
 	font-family: Caveat;
 	font-weight: 400;
-	font-size: 35px;
+	font-size: 44px;
+	color: #03A739;
+}
+
+.green {
+	color: #03A739 !important;
 }
 
 /* ----------------------------------------------------------------
@@ -199,7 +203,11 @@ let black = #111;
 }
 
 #step-1-box {
-	height: 410px;
+	height: 425px;
+}
+
+#step-2-box {
+	height: 390px;
 }
 
 #step-3-box {
@@ -231,10 +239,10 @@ let black = #111;
 }
 
 #jeff-title {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	font-style: italic;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	line-height: 2em;
 }
 
@@ -286,6 +294,16 @@ let black = #111;
 	font-family: Helvetica;
 	font-weight: 700;
 	letter-spacing: -2px;
+}
+
+.ebay-meta {
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	color: #999;
+	font-size: 18px;
+	text-transform: none;
+	margin-top: 15px;
 }
 
 /* Gallery Grid
@@ -562,7 +580,7 @@ a {
 	color: #1c85e8;
 }
 
-a:hover { color: #222; }
+a:hover { color: #0062cc; }
 
 a img { border: none; }
 
