@@ -21,6 +21,16 @@
   <link rel="stylesheet" href="css/responsive.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- Favicon
+	============================================= -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
   <!-- Document Title
 	============================================= -->
   <title>How it Works - CashForCameras.com - Top Dollar for Your Equipment</title>
@@ -45,10 +55,10 @@
 
           <!-- Logo
 					============================================= -->
-          <div id="logo">
-            <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-            <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-          </div><!-- #logo end -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+					</div><!-- #logo end -->
 
           <!-- Primary Navigation
 					============================================= -->
@@ -81,7 +91,7 @@
 								</a></li>
 						</ul>
 
-						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross"></i></a>
+						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross" id="x-to-close"></i></a>
 
 					</nav><!-- #primary-menu end -->
 
@@ -96,9 +106,8 @@
     <section id="page-title" class="page-title-parallax page-title-light page-title-video">
 
       <div class="video-wrap">
-        <video poster="images/videos/explore.jpg" preload="auto" autoplay muted>
+        <video poster="images/videos/typing.jpg" preload="auto" autoplay muted>
 					<source src='images/videos/typing.mp4' type='video/mp4' />
-					<source src='images/videos/explore.webm' type='video/webm' />
 				</video>
         <div class="video-overlay" style="background-color: rgb(255, 255, 255,0.90);">
         </div>
@@ -106,8 +115,8 @@
 
       <div class="container clearfix">
         <h1>Customer Reviews</h1><br>
-        <p class="page-title-sub">We are proud to have earned over 5000 5-Star <br>
-           reviews over the last 17 years in business.</p>
+        <p class="page-title-sub">Over the last 17 years, we are proud to have earned over 5,000 5-Star
+           reviews, from Ebay, Google, Yelp, and the Better Business Bureau.</p>
 			</div>
 
     </section><!-- #page-title end -->
@@ -130,12 +139,12 @@
 
             <div class="clear"></div>
 
-            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="10000" data-speed="1200">
+            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="8000" data-speed="1200">
 
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Fast and easy transaction!! Great to deal with!! HIGHLY RECOMMENDED! Awesome!</p>
@@ -147,7 +156,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Smooth transaction! Would definitely do business with again!</p>
@@ -159,7 +168,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Not enough space allowed to explain my happiness. Everything as advertised.</p>
@@ -171,7 +180,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Great customer service when solving a problem. Fast & professional communication.</p>
@@ -183,7 +192,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Very professional. I will do business with them again in the future.</p>
@@ -195,7 +204,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Lived up to their reputation. First class service.</p>
@@ -207,7 +216,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">A+++ Greatest customer service. Highly recommended.</p>
@@ -219,7 +228,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/ebay-bag-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/ebay-bag-icon.png" alt="Ebay Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Great retailer!! Communication and punctuality were A++!	</p>
@@ -241,12 +250,12 @@
 
             <div class="clear"></div>
 
-            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="18000" data-speed="1200">
+            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="16000" data-speed="1200">
 
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">The best and only place where you will get the most money out of your electronic device! The best in the market! Also, reliable, trustworthy with efficiency when processing your funds into your account!</p>
@@ -261,7 +270,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Was a little worried after hearing these stories online of company’s taking the merch and claiming it was lost or damaged upon delivery... but these guys are the real deal. I got exactly what they quoted me
@@ -277,7 +286,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">I’ve sold items on 4 or 5 occasions and every time I’ve had expedited service, quick email replies and on one occasion I changed my payment type last second and they understood and switched it. This most recent time they sent my overnight payment to my work address...a request I made minutes after they mailed the check. Well they tracked down the driver and re sent the check!!! I’m amazed. Thanks guys!</p>
@@ -292,7 +301,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Customer service responded quickly and was polite. The price guaranteed based on my selected condition was honored and I received payment soon after it was inspected. Great service overall!</p>
@@ -307,7 +316,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">This place was awesome gave me top dollar on my stuff. It was all basically brand new and other places were low balling me. Quick responses on emails and the even helped out when I made the mistakes. Made the
@@ -323,7 +332,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">I received the highest cash offer than from any other site. It was easy to fill out the fields and got a response almost instantly. I will use them again.</p>
@@ -338,7 +347,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Really easy to work with. They gave the most honest / best price, sent a shipping label within minutes, and paid on time. Couldn't be happier. In an industry where there are so many scam artists, these guys are
@@ -354,7 +363,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/google.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/google.png" alt="Google Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">They are very fair and honest. I have used them 3 times and each time they have given me what they quoted and in a very timely manner! Highly recommend!</p>
@@ -379,12 +388,12 @@
 
             <div class="clear"></div>
 
-            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="18000" data-speed="1200">
+            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="16000" data-speed="1200">
 
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">In all honesty, this is one of the best customer experiences I've had in a long time. They are a very transparent and honest business with a heavy emphasis on delivering the absolute best customer service possible. Everyone working there is a delight, and much of that starts with tremendous leadership from manager Mathew Rickey. The positivity & energy there is almost infectious! </p>
@@ -399,7 +408,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">This place is amazing! I've been emailing a ton of businesses and they, by far, have been the most responsive, most reasonable, and friendliest.</p>
@@ -414,7 +423,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Knowledgeable, friendly service!  I knew what I wanted, got great advice, and everything was geared toward my saving money. Great store!</p>
@@ -429,7 +438,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">I called these guys late on a Friday and Matt still took the time to chat with me patiently, answering all my questions. When I went in to follow up he knew exactly who I was and honored the price he quoted me. Two other people helped me go through the packaging and check out. These guys are my new 'go-to.'</p>
@@ -444,7 +453,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">This is my all time favorite electronic trading company. For years I used numerous services and there were always issues regarding a trade-in and the timeliness of compensation. My actions speak for themselves.</p>
@@ -459,7 +468,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">!! The best customer service anywhere! They really take the time here to help you out and they know their stuff !!! Great and informative staff! You will find what you need!</p>
@@ -474,7 +483,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Amazing is the word to describe this place!!! Hands down probably the best customer service I have ever gotten at any store tech store.</p>
@@ -489,7 +498,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/yelp-burst.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/yelp-burst.png" alt="Yelp Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Came to these guys after a bad craigslist experience, and felt they went above and beyond to help me and my family out. The triple Matt crew was super friendly and my daughter stole their hearts. Thanks guys!</p>
@@ -514,12 +523,12 @@
 
             <div class="clear"></div>
 
-            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="15000" data-speed="1200">
+            <div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="14000" data-speed="1200">
 
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Great customer service and communication! I enjoyed doing business with Matt and they give the best deals for your equipment!! I feel like they treat their customers like family.</p>
@@ -534,7 +543,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Very fast service , was very truthfully on A review and cash payment</p>
@@ -549,7 +558,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">This process was so easy! I just packed up my stuff and sent it off and two days later they mailed me a check. It was fast and friendly.</p>
@@ -564,7 +573,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Great service and handled promptly and as promised. Would do business with them again in a heartbeat. </p>
@@ -579,7 +588,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">The best and only place where you will get the most money out of your electronic device! The best in the market! Also, reliable, trustworthy with efficiency when processing your funds into your account!</p>
@@ -594,7 +603,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Got a competitive price. No hassles. Timely proactive communication. Thanks</p>
@@ -609,7 +618,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">Top notch company! From the initial quote to depositing the check in the bank, the entire transaction was flawless!</p>
@@ -624,7 +633,7 @@
               <div class="oc-item">
                 <div class="testimonial p-4 noborder noshadow">
                   <div class="testi-image">
-                    <img src="images/testimonials/bbb-icon.png" alt="Customer Testimonails">
+                    <img src="images/testimonials/bbb-icon.png" alt="Better Business Bureau Icon">
                   </div>
                   <div class="testi-content">
                     <p id="testi-text">This transaction could not have gone better. I filled out the online estimate form, got the shipping label from them, shipped, they tested it & gave me the full amount. All this took less than a week. I highly recommend this excellent company! They truly deserve their A+ rating!</p>

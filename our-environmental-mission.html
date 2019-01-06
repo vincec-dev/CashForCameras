@@ -19,6 +19,16 @@
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- Favicon
+	============================================= -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
 	<!-- Document Title
 	============================================= -->
 	<title>How it Works - CashForCameras.com - Top Dollar for Your Equipment</title>
@@ -44,8 +54,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -79,7 +89,7 @@
 								</a></li>
 						</ul>
 
-						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross"></i></a>
+						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross" id="x-to-close"></i></a>
 
 					</nav><!-- #primary-menu end -->
 
@@ -94,16 +104,16 @@
 		<section id="page-title" class="page-title-parallax page-title-light page-title-video">
 
 			<div class="video-wrap">
-				<video poster="images/videos/explore.jpg" preload="auto" autoplay muted>
-					<source src='images/videos/24504575-preview.mp4' type='video/mp4' />
-					<source src='images/videos/explore.webm' type='video/webm' />
+				<video poster="images/videos/world-of-people.jpg" preload="auto" autoplay muted>
+					<source src='images/videos/world-of-people.mov' type='video/mp4' />
+					<!-- <source src='images/videos/explore.webm' type='video/webm' /> -->
 				</video>
 				<div class="video-overlay" style="background-color: rgb(255, 255, 255,0.80);">
         </div>
 			</div>
 
 			<div class="container clearfix center">
-				<h2 id="mission-h2">Our Environmental Mission</h2>
+				<h1 id="page-title-env-mis">Our Environmental Mission</h1>
         <p id="mission-text">To offer a sustainable and eco-friendly way to sell your equipment.
         </p>
 				<!-- <span>Together we can help reduce the environmental impact of consumer electronics.</span> -->
@@ -116,7 +126,7 @@
 
   <section id="content">
 
-			<div class="content-wrap">
+			<div id="env-main-div">
 
 				<div class="container clearfix">
 
@@ -136,17 +146,11 @@
 
       					</div>
 
-      					<div class="col_half notopmargin nobottommargin col_last">
+      					<div class="col_half col_last">
 
-      						<img src="images/recycle-people.jpg" alt="Green Earth Illustration" style="position: center;">
-
-      						<!-- <div class="landing-video">
-      							<iframe style="" src="http://player.vimeo.com/video/87701971" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      						</div> -->
+      						<img src="images/people-forming-recycle-symbol.jpg" alt="Many people forming the recycle icon shape" style="position: center;">
 
       					</div>
-
-      					<div class="clear"></div>
 
                 </div>
                 </div>

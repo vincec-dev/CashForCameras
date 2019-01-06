@@ -8,7 +8,8 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:200,300,400,500,600,700|Nunito:300,400,600,700|Kodchasan:200,300,400,500|Mallanna|Mukta:200,300,400,500,600,700,800|Quicksand:300,400,500,700|Sirin+Stencil|Syncopate:400,700|Varela+Round|Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:200,300,400,500,600,700|Nunito:300,400,600,700|Kodchasan:200,300,400,500|Mallanna|Mukta:200,300,400,500,600,700,800|Quicksand:300,400,500,700|Sirin+Stencil|Syncopate:400,700|Varela+Round|Montserrat:100,200,300,400,500,600,700,800,900"
+	  rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
@@ -19,9 +20,19 @@
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- Favicon
+	============================================= -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
 	<!-- Document Title
 	============================================= -->
-	<title>Home - CashForCameras.com - Top Dollar for Your Equipment</title>
+	<title>CashForCameras.com Home - We Pay Top Dollar for Your Equipment</title>
 
 </head>
 
@@ -44,8 +55,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -56,7 +67,7 @@
 							<li class="current"><a href="index.html">
 									<div>Home</div>
 								</a></li>
-							<li><a href="#">
+							<li><a href="http://www.cashforcameras.com/cash-offer-form/a/1">
 									<div>Cash Offer Form</div>
 								</a></li>
 							<li><a href="how-it-works.html">
@@ -79,7 +90,7 @@
 								</a></li>
 						</ul>
 
-						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross"></i></a>
+						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross" id="x-to-close"></i></a>
 
 					</nav><!-- #primary-menu end -->
 
@@ -89,40 +100,29 @@
 
 		</header><!-- #header end -->
 
-		<section id="slider" class="slider-element full-screen">
-
-			<div class="full-screen light section nopadding nomargin noborder ohidden">
-
-				<div class="container clearfix">
-					<div class="slider-caption slider-caption-center">
-						<h2 data-animate="fadeInUp">We Pay Top Dollar</h2>
-						<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">For cameras, lenses, drones and video equipment.</p>
-						<a href="#" class="btn btn-primary btn-lg"><span>Get A Cash Offer</span></a>
-					</div>
+		<div class="section yt-bg-player nomargin light" id="home-yt-vid" data-quality="hd1080" data-video="https://youtu.be/aHEgCOJThh0" style="height: 600px;" allow="autoplay">
+			<div class="video-overlay" id="video-overly-id" style="background-color: rgba(255,255,255,0.80);"></div>
+			<div class="container-fluid vertical-middle center clearfix">
+				<div class="slider-caption slider-caption-center" id="video-text">
+					<h2 data-animate="fadeInUp" id="title-h2">We Pay Top Dollar</h2>
+					<p class="d-sm-block" data-animate="fadeInUp" data-delay="200">For cameras, lenses, drones and video equipment.</p>
+					<a href="#" class="btn btn-primary btn-lg" id="cash-offer-btn"><span>Get A Cash Offer</span></a>
 				</div>
-				<div class="video-wrap">
-					<video poster="images/videos/explore.jpg" preload="auto" loop autoplay muted>
-						<source src='images/videos/26728099-preview.mp4' type='video/mp4' />
-						<source src='images/videos/explore.webm' type='video/webm' />
-					</video>
-					<div class="video-overlay" style="background-color: rgba(255,255,255,0.85);"></div>
-				</div>
-
 			</div>
+		</div>
 
-		</section>
 
 		<!-- Content
 	============================================= -->
-		<section id="content">
+		<section id="home-content">
 
-			<div class="content-wrap pt-0 pb-0" style="background: url('images/subtle_dots.png') repeat">
+			<div class="content-wrap pt-0 pb-0">
 
 				<div class="clearfix">
 
 					<!-- Features
 			============================================= -->
-					<div class="container clearfix py-5">
+					<div class="container clearfix">
 						<h1 class="center mb-0">How it Works</h1>
 						<div class="row">
 							<div class="col-md-4 mt-5">
@@ -131,7 +131,7 @@
 										<img src="images/icons/1-get-quote.svg" alt="Feature Icon" class="nobg noradius">
 									</div>
 									<h3 class="nott ls0"><span id="step-number">1</span><span id="step-parenth">.</span> get a cash offer</h3>
-									<p>Submit your equipment info and<BR>secure&nbsp; your quote&nbsp; for&nbsp; 30 days.</p><BR>
+									<p id="how-step-1">Submit your equipment info and secure your cash offer for 30 days.</p>
 								</div>
 							</div>
 
@@ -141,7 +141,7 @@
 										<img src="images/icons/2-ship-camera.svg" alt="Feature Icon" class="nobg noradius">
 									</div>
 									<h3 class="nott ls0"><span id="step-number">2</span><span id="step-parenth">.</span> ship your equipment</h3>
-									<p class="step-p">We will provide you&nbsp; with a&nbsp; FREE prepaid<br>FedEx shipping label (insurance included).</p>
+									<p id="how-step-2">We provide a FREE prepaid FedEx shipping label (insurance included).</p>
 								</div>
 							</div>
 
@@ -151,7 +151,7 @@
 										<img src="images/icons/3-get-paid-paypal.svg" alt="Feature Icon" class="nobg noradius">
 									</div>
 									<h3 class="nott ls0"><span id="step-number">3</span><span id="step-parenth">.</span> get paid</h3>
-									<p>Receive your funds via PayPal<BR>or request a check in the mail.</p>
+									<p id="how-step-3">Receive your funds via PayPal or request a check in the mail.</p>
 								</div>
 							</div>
 						</div>
@@ -159,43 +159,41 @@
 
 					<!-- Brands We Buy
 			============================================= -->
-					<div class="section mt-0">
-						<div class="container" style="background: url('images/brands-we-buy-bg-color.jpg') no-repeat bottom right / cover; padding: 0 0 75px 0">
+					<div class="my-c">
+						<div class="container" style="background: url('images/brands-we-buy-bg-4.jpg') no-repeat bottom left / cover; padding: 0 0 75px 0">
 							<h1>Brands We Buy</h1>
 
-							<ul class="clients-grid grid-8 nobottommargin clearfix" style="padding-right:15%">
-								<li><a href="#" onclick="return false;"><img src="images/brands/canon-photo-brand-logo.png" alt="Canon Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/nikon-photo-brand-logo.png" alt="Nikon Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/panasonic-photo-brand-logo.png" alt="Panasonic Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/olympus-photo-brand-logo.png" alt="Olympus Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/sony-photo-brand-logo.png" alt="Sony Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/fuji-photo-brand-logo.png" alt="Fuji Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/leica-photo-brand-logo.png" alt="leica Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/hasselblad-photo-brand-logo.png" alt="Hasselblad Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/phase-one-photo-brand-logo.png" alt="PhaseOne Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/black-magic-design-photo-brand-logo.png" alt="Black Magic Design Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/red-digital-cinema-photo-brand-logo.png" alt="Red Digital Cinema Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/gopro-photo-brand-logo.png" alt="GoPro Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/hoya-photo-brand-logo.png" alt="Hoya Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/sandisk-photo-brand-logo.png" alt="Sandisk Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/sigma-photo-brand-logo.png" alt="Sigma Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/tokina-photo-brand-logo.png" alt="Tokia Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/lowepro-photo-brand-logo.png" alt="Lowepro Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/zeiss-photo-brand-logo.png" alt="Zeiss Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/manfrotto-photo-brand-logo.png" alt="Manfrotto Camera Brand"></a></li>
-								<li><a href="#" onclick="return false;"><img src="images/brands/gitzo-photo-brand-logo.png" alt="Gitzo Camera Brand"></a></li>
+							<ul class="clients-grid grid-8 nobottommargin clearfix" style="padding-right: 20%; padding-bottom: 30px;">
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/canon-photo-brand-logo.png" alt="Canon Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/nikon-photo-brand-logo.png" alt="Nikon Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/panasonic-photo-brand-logo.png" alt="Panasonic Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/olympus-photo-brand-logo.png" alt="Olympus Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/sony-photo-brand-logo.png" alt="Sony Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/fuji-photo-brand-logo.png" alt="Fuji Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/leica-photo-brand-logo.png" alt="leica Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/hasselblad-photo-brand-logo.png" alt="Hasselblad Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/phase-one-photo-brand-logo.png" alt="PhaseOne Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/black-magic-design-photo-brand-logo.png" alt="Black Magic Design Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/red-digital-cinema-photo-brand-logo.png" alt="Red Digital Cinema Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/gopro-photo-brand-logo.png" alt="GoPro Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/hoya-photo-brand-logo.png" alt="Hoya Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/sandisk-photo-brand-logo.png" alt="Sandisk Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/sigma-photo-brand-logo.png" alt="Sigma Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/tokina-photo-brand-logo.png" alt="Tokia Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/lowepro-photo-brand-logo.png" alt="Lowepro Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/zeiss-photo-brand-logo.png" alt="Zeiss Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/manfrotto-photo-brand-logo.png" alt="Manfrotto Camera Brand"></a></li>
+								<li><a href="#" onclick="return false;"><img src="images/camera-brands/gitzo-photo-brand-logo.png" alt="Gitzo Camera Brand"></a></li>
 							</ul>
 
 						</div>
 					</div>
 
-					<div class="clear"></div>
-
 
 					<!-- Customer Reviews
 					============================================= -->
 					<div class="container">
-						<div class="center mb-5">
+						<div class="center mb-5 mt-c">
 							<h1>Over 5,000 Customer Reviews</h1>
 						</div>
 
@@ -244,7 +242,8 @@
 						<!-- Owl Carousel
 					============================================= -->
 
-						<div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true" data-autoplay="15000" data-speed="500">
+						<div id="oc-testimonials" class="owl-carousel center testimonials-carousel testimonial-full carousel-widget" data-margin="0" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2" data-items-xl="3" data-center="true" data-loop="true"
+						  data-autoplay="15000" data-speed="500">
 
 							<!-- Item 1 -->
 							<div class="oc-item">
@@ -557,7 +556,7 @@
 							<div>
 								<a href="index.html"><img src="images/CashForCameras-logo-blue-footer.png" class="footer-logo" alt="Cash For Cameras Logo"></a>
 								<p class="footer-logo-text">We pay top dollar for your cameras,<br>
-								lenses, drones and video equipment.</p>
+									lenses, drones and video equipment.</p>
 							</div>
 
 						</div>
@@ -569,7 +568,7 @@
 									<div class="widget widget_links clearfix">
 										<h4 class="text-light">Get Started</h4>
 										<ul>
-											<li><a href="#">Cash Offer Form</a></li>
+											<li><a href="http://www.cashforcameras.com/cash-offer-form/a/1">Cash Offer Form</a></li>
 											<li><a href="how-it-works.html">How it Works</a></li>
 											<li><a href="frequently-asked-questions.html">Frequently Asked Questions</a></li>
 										</ul>

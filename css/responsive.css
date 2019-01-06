@@ -345,8 +345,8 @@
 	#primary-menu ul li {
 		float: none;
 		margin: 0 !important;
-		text-align: left !important;
-		border-top: 1px solid #EEE;
+		text-align: center !important;
+		/* border-top: 1px solid #EEE; */
 	}
 
 	#header.split-menu #primary-menu:not(.mobile-menu-off-canvas) > ul:not(:first-child) > li:first-child { border-top: 1px solid #EEE; }

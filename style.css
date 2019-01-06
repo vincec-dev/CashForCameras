@@ -1,20 +1,330 @@
 /* ----------------------------------------------------------------
-	Cash For Cameras Custom Classes
+	Universal Classes & ID's
 -----------------------------------------------------------------*/
+let black = #333333;
+
+.footer-logo-text {
+	color: #f7f7f7;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.mb-c {
+	margin-bottom: 120px;
+}
+
+.mt-c {
+	margin-top: 120px;
+}
+
+.my-c {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+
+#priv-term-text {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#priv-term-text:hover {
+	color: #1c85e8;
+}
+
+#sign-up {
+	padding: 110px 0;
+	background: url('images/gplaypattern.png') repeat;
+}
 
 #transparent {
 	background-color: red;
 }
 
+#x-to-close {
+	font-size: 40px;
+	color: #007bff;
+}
+
 /* ----------------------------------------------------------------
-	Home Page
+	About Us Page
 -----------------------------------------------------------------*/
 
-let black = #111;
+.contact-section {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	width: 55%;
+	padding: 60px 60px 85px 150px;
+	z-index: 0;
+}
+.contact-image {
+	position: relative;
+	width: 55%;
+	margin-top: 60px;
+	z-index: 2;
+	box-shadow: 0 0 40px rgba(0,0,0,.3);
+}
+@media (max-width: 991px) {
+	.contact-section {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 20px;
+	}
+	.contact-image {
+		width: 100%;
+		margin-top: 0;
+	}
+}
 
-#video-hero-text {
+.man {
+	margin-left: 12%;
+}
+
+.value-subtext {
+	font-size: 21px;
+	font-weight: 500;
+	/* font-family: 'Montserrat', sans-serif; */
+}
+
+.value-subtext li {
+	margin-bottom: 15px !important;
+}
+
+#jeff-name {
+	font-size: 28px;
 	color: black;
-	font-family: 'Kodchasan';
+}
+
+#jeff-title {
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+	/* letter-spacing: 1px; */
+	line-height: 2em;
+}
+
+#page-title-about {
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+@media screen and (max-width: 992px) {
+	#page-title-about {
+		margin-top: 40px;
+		margin-bottom: 55px;
+	}
+}
+
+#page-title-about-txt {
+	font-size: 23px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+#quote-text {
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#team-pic {
+	border-radius: 10px;
+	margin: 80px 50px;
+}
+
+/* Image Gallery Grid
+-----------------------------------------------------------------*/
+
+.masonry-thumbs a i {
+	opacity: 0;
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	color: rgba(255, 255, 255, 0.7);
+	z-index: 99;
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 5px;
+	font-size: 14px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: transform .4s ease;
+	-o-transition: transform .4s ease;
+	transition: transform .4s ease;
+	-webkit-backface-visibility: hidden;
+}
+
+.masonry-thumbs a:hover i {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+/* ----------------------------------------------------------------
+	Contact Us Page
+-----------------------------------------------------------------*/
+#contact-icon {
+	font-size: 30px;
+}
+
+#contact-us-form input, textarea {
+	border: 0px;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+#faq-please-txt {
+	font-size: 20px;
+}
+
+/* ----------------------------------------------------------------
+	Customer Reviews Page
+-----------------------------------------------------------------*/
+.bbb-font {
+	color: #005B78;
+	font-size: 45px;
+	font-family: Helvetica;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+
+.ebay-font {
+	font-size: 62px;
+	font-family: Helvetica Neue;
+	font-weight: 400;
+	letter-spacing: -3px;
+}
+
+.ebay-meta {
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	color: #999;
+	font-size: 18px;
+	text-transform: none;
+	margin-top: 15px;
+}
+
+.google-font {
+	font-size: 62px;
+	font-family: Cantarell;
+	font-weight: 400;
+	letter-spacing: -4px;
+}
+
+.page-title-sub {
+	font-size: 23px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	max-width: 650px
+}
+
+.yelp-font {
+	color: #050505;
+	font-size: 62px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 400;
+	letter-spacing: -3px;
+}
+
+/* ----------------------------------------------------------------
+	Frequently Asked Questions Page
+-----------------------------------------------------------------*/
+
+.answer-text {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.bottommargin-faq {
+	margin-bottom: 55px;
+}
+
+.listed-step {
+	margin-bottom: 10px !important;
+}
+
+#faq-listed {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#faq-sub-title {
+	max-width: 475px;
+	margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------
+	How it Works Page
+-----------------------------------------------------------------*/
+.step-li {
+	font-size: 18px;
+}
+
+#email-items {
+	margin-left: 15%;
+	color: #666;
+}
+
+#page-title-txt {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+#step-text {
+	font-size: 15px;
+}
+
+#step-ul {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+@media (max-width: 345px) {
+	#hq-hours {
+		font-size: 13px;
+	}
+}
+
+/* ----------------------------------------------------------------
+	index.html (Home) Page
+-----------------------------------------------------------------*/
+.email-li {
+	list-style-position: inside;
+	margin-left: 20px;
+}
+
+.five-stars {
+	width: 100px;
+}
+
+#home-yt-vid {
+	top: -100px;
+	margin-bottom: -100px;
+}
+
+#how-step-1, #how-step-2 {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+#how-step-3 {
+	width: 225px;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
 #step-number {
@@ -27,26 +337,6 @@ let black = #111;
 	font-size: 28px;
 }
 
-/* .step-p {
-	text-align: justify;
-	max-width: 285px;
-	-moz-text-align-last: center;
-  text-align-last: center;
-} */
-
-/* #section-faqs {
-	line-height: 2.25;
-} */
-
-.email-li {
-	list-style-position: inside;
-	margin-left: 20px;
-}
-
-.five-stars {
-	width: 100px;
-}
-
 #testi-text {
 	font-size: 17px;
 	font-weight: 400 !important;
@@ -54,29 +344,40 @@ let black = #111;
 	color: #000
 }
 
-#sign-up {
-	padding: 110px 0;
-	background: url('images/gplaypattern.png') repeat;
+#video-hero-text {
+	color: black;
+	font-family: 'Kodchasan';
 }
 
-.footer-logo-text {
-	color: #f7f7f7;
-	font-style: italic;
-	font-weight: 400;
-	font-size: 15px;
+#video-overly-id {
+	z-index: 0;
 }
 
-#priv-term-text {
-	color: white;
-	font-size: 14px;
-	font-weight: 300;
-}
+/* To modify video for tablet and mobile sizes */
+@media screen and (max-width: 992px) {
+  #title-h2 {
+    font-size: 28px;
+  }
 
-#priv-term-text:hover {
-	color: #1c85e8;
-}
+	#home-yt-vid {
+		top: 0px;
+		margin-bottom: 0px;
+	}
 
-/* Customer Reviews Carousel
+	#home-content {
+		margin-top: 50px;
+	}
+
+	#video-text {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+}
+/* END - To modify video for tablet and mobile sizes */
+
+
+/* Customer Reviews Carousel (found in Home and Customer Reviews Page)
 -----------------------------------------------------------------*/
 
 .testimonials-carousel .owl-item {
@@ -134,9 +435,12 @@ let black = #111;
 /* ----------------------------------------------------------------
 	Our Environmental Mission Page
 -----------------------------------------------------------------*/
+.green {
+	color: #03A739 !important;
+}
 
-#mission-h2 {
-	color: black;
+#env-main-div {
+	margin: 50px 0;
 }
 
 #mission-text {
@@ -144,207 +448,32 @@ let black = #111;
 	font-weight: 400;
 	font-size: 44px;
 	color: #03A739;
+	margin-top: 50px;
 }
 
-.green {
-	color: #03A739 !important;
+#page-title-env-mis {
+	font-size: 36px !important;
 }
 
-/* ----------------------------------------------------------------
-	Contact Us Page
------------------------------------------------------------------*/
+@media (max-width: 479px) {
+	#env-main-div {
+		margin: 0px 0;
+	}
 
-#faq-please-txt {
-	font-size: 20px;
+	#page-title-env-mis {
+		font-size: 28px !important;
+	}
+
 }
 
-#contact-us-form input, textarea {
-	border: 0px;
-	border-bottom: 1px solid #c6c6c6;
-}
-
-#contact-icon {
-	font-size: 30px;
-}
-
-/* ----------------------------------------------------------------
-	FAQ Page
------------------------------------------------------------------*/
-
-.answer-text {
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.bottommargin-faq {
-	margin-bottom: 55px;
-}
-
-#faq-listed {
-	max-width: 500px;
-	margin: 0 auto;
-}
-
-.listed-step {
-	margin-bottom: 10px !important;
+@media (max-width: 350px) {
+	#page-title-env-mis {
+		font-size: 22px !important;
+	}
 }
 
 /* ----------------------------------------------------------------
-	How it Works Page
------------------------------------------------------------------*/
-
-#step-text {
-	font-size: 15px;
-}
-
-#email-items {
-	margin-left: 60px;
-	color: #666;
-}
-
-#step-1-box {
-	height: 425px;
-}
-
-#step-2-box {
-	height: 390px;
-}
-
-#step-3-box {
-	height: 340px;
-}
-
-/* ----------------------------------------------------------------
-	About Us Page
------------------------------------------------------------------*/
-
-#team-pic {
-	border-radius: 10px;
-	margin: 80px 50px;
-}
-
-.man {
-	margin-left: 12%;
-}
-
-#quote-text {
-	font-size: 20px;
-	font-weight: 400;
-	font-style: italic;
-}
-
-#jeff-name {
-	font-size: 28px;
-	color: black;
-}
-
-#jeff-title {
-	font-size: 18px;
-	font-weight: 500;
-	font-style: italic;
-	/* letter-spacing: 1px; */
-	line-height: 2em;
-}
-
-.value-subtext {
-	font-size: 21px;
-	font-weight: 500;
-	/* font-family: 'Montserrat', sans-serif; */
-}
-
-.value-subtext li {
-	margin-bottom: 15px !important;
-}
-
-/* ----------------------------------------------------------------
-	Customer Reviews Page
------------------------------------------------------------------*/
-
-.page-title-sub {
-	font-size: 23px;
-	font-weight: 500;
-	letter-spacing: 2px;
-}
-
-.ebay-font {
-	font-size: 62px;
-	font-family: Helvetica Neue;
-	font-weight: 400;
-	letter-spacing: -3px;
-}
-
-.google-font {
-	font-size: 62px;
-	font-family: Cantarell;
-	font-weight: 400;
-	letter-spacing: -4px;
-}
-
-.yelp-font {
-	color: #050505;
-	font-size: 62px;
-	font-family: 'Istok Web', sans-serif;
-	font-weight: 400;
-	letter-spacing: -3px;
-}
-
-.bbb-font {
-	color: #005B78;
-	font-size: 45px;
-	font-family: Helvetica;
-	font-weight: 700;
-	letter-spacing: -2px;
-}
-
-.ebay-meta {
-	text-align: center;
-	display: block;
-	font-weight: normal;
-	color: #999;
-	font-size: 18px;
-	text-transform: none;
-	margin-top: 15px;
-}
-
-/* Gallery Grid
------------------------------------------------------------------*/
-
-.masonry-thumbs a i {
-	opacity: 0;
-	position: absolute;
-	display: block;
-	top: 50%;
-	left: 50%;
-	color: rgba(255, 255, 255, 0.7);
-	z-index: 99;
-	background-color: rgba(0, 0, 0, 0.65);
-	padding: 5px;
-	font-size: 14px;
-	width: 40px;
-	height: 40px;
-	margin-top: -20px;
-	margin-left: -20px;
-	line-height: 30px;
-	text-align: center;
-	border-radius: 50%;
-	-webkit-transform: scale(0.8);
-	-o-transform: scale(0.8);
-	transform: scale(0.8);
-	-webkit-transition: transform .4s ease;
-	-o-transition: transform .4s ease;
-	transition: transform .4s ease;
-	-webkit-backface-visibility: hidden;
-}
-
-.masonry-thumbs a:hover i {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	-o-transform: scale(1);
-	transform: scale(1);
-}
-
-/* ----------------------------------------------------------------
-	Seo Demo CSS (copied from seo.css file)
+	Testimonials Carousel CSS (from seo.css file)
 -----------------------------------------------------------------*/
 
 /* Testimonials Carousel
@@ -404,6 +533,279 @@ let black = #111;
 
 .feature-box.no-middot:after { content: none }
 }
+
+/* ----------------------------------------------------------------
+	How It Works Page - CSS File
+-----------------------------------------------------------------*/
+
+:root {
+	--themecolor: #1c85e8;
+}
+
+.emphasis-title h2 {
+	font-size: 48px;
+}
+
+.emphasis-title p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #525975;
+}
+
+/* How it works toggles - for 3 steps */
+
+	.toggle.toggle-bg .togglet i {
+		left: auto;
+		right: 24px;
+		line-height: 64px;
+		width: 20px;
+		font-size: 20px;
+	}
+
+	.toggle.toggle-bg .togglet, .toggle.toggle-bg .toggleta {
+		background-color: #F2F6FA;
+		padding: 10px 24px;
+	}
+
+	.toggle.toggle-bg .togglec {
+		background-color: #F2F6FA;
+		padding: 0 24px 24px;
+	}
+
+	.togglec {
+		font-weight: 400;
+		font-size: 1em;
+	    color: #888;
+	    line-height: 1.7;
+	}
+
+	.togglet .toggle-icon {
+		-webkit-transition: transform .25s ease;
+		-o-transition: transform .25s ease;
+		transition: transform .25s ease;
+	}
+
+	.togglet.toggleta .toggle-icon {
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+		color: var(--themecolor);
+	}
+}
+
+/* Other */
+
+.quote p { font-size: 20px; }
+
+
+.heading-block h2 + span {
+	font-size: 18px;
+	color: #999 !important;
+}
+
+/* ----- | Story-Box | ----- */
+.story-box {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 35px;
+	/* cursor: pointer; */
+}
+
+.story-box .story-box-image {
+	width: 70%;
+	height: 500px;
+	z-index: 2;
+	overflow: hidden;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+
+.story-box .story-box-image img {
+	display: block;
+	height: auto;
+	width: 100%;
+	opacity: 1;
+	transition: opacity .3s ease;
+}
+
+.story-box:hover .story-box-image img {
+	opacity: .9;
+ }
+
+.story-box .story-box-info {
+	box-sizing: border-box;
+	width: 50%;
+	height: auto;
+	padding: 60px;
+	margin: 35px 0 0 -20%;
+	background: #fff;
+	z-index: 4;
+	box-shadow: 0 10px 45px rgba(0,0,0,.1);
+	transition: all ease-in .3s;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+
+.story-box.description-left .story-box-info {
+	-ms-flex-order: -1;
+	order: -1;
+	margin: 35px -20% 0 0;
+}
+
+.story-box .story-box-info .story-title {
+	/* font-family: 'Encode Sans Expanded', sans-serif; */
+	font-size: 26px;
+	line-height: 1.4;
+	font-weight: 500;
+	letter-spacing: 0;
+	color: #1d2c4c;
+}
+
+.story-box .story-box-info .story-box-content p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #666;
+	line-height: 16px;
+}
+
+.story-box .story-box-info .story-box-content a {
+	font-size: 16px;
+	/* text-decoration: underline !important; */
+}
+
+/* ----- Story-Box Responsive ----- */
+@media (max-width: 991px) {
+
+	.story-box .story-box-image {
+		height: auto;
+		width: 100%;
+		height: 400px;
+		-ms-flex-order: -1;
+		order: -1;
+	}
+
+	.story-box.description-left .story-box-info {
+		-ms-flex-order: -1;
+		order: -1;
+		margin: 35px -20% 0 0;
+	}
+
+	.story-box.description-left .story-box-info { margin: -40px 5% 0; }
+
+	.story-box .story-box-info {
+		max-width: 90%;
+		height: auto;
+		-ms-flex-preferred-size: 90%;
+		flex-basis: 90%;
+		margin: -40px 5% 0;
+	}
+
+	#side-panel-trigger { right: 40px !important; }
+
+	.mobile-side-panel {
+		position: absolute;
+		display: block;
+		top: 26px;
+		font-size: 18px;
+		color: #222;
+		right: 40px;
+		padding: 10px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.story-box.description-left .story-box-info { margin: -100px 5% 0; }
+	.story-box .story-box-info {
+		padding: 35px;
+		text-align: left;
+		margin: -100px 5% 0;
+	}
+	.customers-count { border-right: none }
+}
+
+@media (max-width: 479px) {
+
+	.story-box .story-box-info {
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+		margin: -200px 5% 0;
+	}
+	.story-box.description-left .story-box-info { margin: -200px 5% 0; }
+
+	ul.tab-nav:not(.tab-nav-lg) li a i {display: none;}
+}
+
+
+/* ----- Tab ----- */
+ul.tab-nav:not(.tab-nav-lg) { border-bottom: none; }
+
+ul.tab-nav:not(.tab-nav-lg) li {
+	float: left;
+	border: none;
+	height: auto;
+	text-align: center;
+}
+
+.tabs.tabs-alt ul.tab-nav li.ui-tabs-active a { border: none; }
+
+ul.tab-nav:not(.tab-nav-lg) li a {
+	color: #1d2c4c;
+	height: auto;
+	line-height: 1;
+	background-color: transparent;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+
+ul.tab-nav:not(.tab-nav-lg) li a i {
+	display: block;
+	font-size: 42px;
+	margin: 0 0 17px 0;
+	color: var(--themecolor);
+}
+
+ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a { top: 0; }
+
+ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a:after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+	border-radius: 50%;
+	background: var(--themecolor);
+}
+
+.tab-container { margin: 30px 0 0; }
+
+
+/* ----- Tab Responsive ----- */
+.acctitle {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    border-top: 1px dotted #DDD;
+    padding: 12px 0 12px 24px;
+}
+.acc_content { padding: 10px 0 25px; }
+.acctitle i {
+	color: var(--themecolor);
+	font-size: 16px;
+	top: 3px;
+}
+
+.acctitle i.icon-ok-circle,
+.acctitle i.icon-remove-circle { display: none; }
 
 /*-----------------------------------------------------------------------------------
 
@@ -610,7 +1012,7 @@ h6 {
 h5,
 h6 { margin-bottom: 20px; }
 
-h1 { font-size: 34px; }
+h1 { font-size: 36px; }
 
 h2 { font-size: 30px; }
 
@@ -1567,7 +1969,7 @@ body.stretched #header.full-header .container {
 	line-height: 26px;
 	padding: 39px 15px;
 	color: #444;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -2103,6 +2505,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 
 .overlay-menu #primary-menu > ul > li > a {
 	font-size: 21px;
+	font-weight: 500;
 	padding-top: 19px;
 	padding-bottom: 19px;
 	letter-spacing: 2px;
@@ -3760,7 +4163,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: #333;
-	font-size: 28px;
+	font-size: 36px;
 	text-transform: uppercase;
 }
 
@@ -7868,7 +8271,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box {
 	position: relative;
 	margin-top: 20px;
-	padding: 0 0 0 80px;
+	padding: 0 0 0 70px;
 }
 
 .feature-box:first-child { margin-top: 0; }
@@ -9927,7 +10330,8 @@ ul.tab-nav li a i {
 
 .faqlist li {
 	margin-bottom: 5px;
-	font-size: 15px;
+	font-size: 17px;
+	font-weight: bold;
 }
 
 .faqlist li a { color: #444; }

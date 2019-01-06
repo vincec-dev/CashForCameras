@@ -21,40 +21,19 @@
   <link rel="stylesheet" href="css/responsive.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- Favicon
+	============================================= -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
   <!-- Document Title
 	============================================= -->
   <title>How it Works - CashForCameras.com - Top Dollar for Your Equipment</title>
-
-  <style>
-	.contact-section {
-		position: absolute;
-		display: block;
-		top: 0;
-		right: 0;
-		width: 55%;
-		padding: 60px 60px 45px 150px;
-		z-index: 0;
-	}
-	.contact-image {
-		position: relative;
-		width: 55%;
-		margin-top: 60px;
-		z-index: 2;
-		box-shadow: 0 0 40px rgba(0,0,0,.3);
-	}
-	@media (max-width: 991px) {
-		.contact-section {
-			position: relative;
-			display: block;
-			width: 100%;
-			padding: 20px;
-		}
-		.contact-image {
-			width: 100%;
-			margin-top: 0;
-		}
-	}
-	</style>
 
 </head>
 
@@ -76,10 +55,10 @@
 
           <!-- Logo
 					============================================= -->
-          <div id="logo">
-            <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-            <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/CashForCameras-logo-blue2.png" alt="Canvas Logo"></a>
-          </div><!-- #logo end -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+					</div><!-- #logo end -->
 
           <!-- Primary Navigation
 					============================================= -->
@@ -112,7 +91,7 @@
 								</a></li>
 						</ul>
 
-						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross"></i></a>
+						<a href="#" id="overlay-menu-close" class="d-none d-lg-block"><i class="icon-line-cross" id="x-to-close"></i></a>
 
 					</nav><!-- #primary-menu end -->
 
@@ -124,20 +103,11 @@
 
     <!-- Page Title
 		============================================= -->
-    <section id="page-title" class="page-title-parallax page-title-light page-title-video" style="background: url('images/about-us-title-bg-01.svg') bottom center no-repeat">
+    <section id="page-title" class="" style="background: url('images/about-us-title-bg.svg') bottom no-repeat; background-size: contain;">
 
-      <!-- <div class="video-wrap">
-        <video poster="images/videos/explore.jpg" preload="auto" autoplay muted>
-					<source src='images/videos/12374471-preview.mp4' type='video/mp4' />
-					<source src='images/videos/explore.webm' type='video/webm' />
-				</video>
-        <div class="video-overlay" style="background-color: rgb(255, 255, 255,0.90);">
-        </div>
-      </div> -->
-
-      <div class="center bottommargin topmargin-lg">
+      <div class="center" id="page-title-about">
         <h1>About Us</h1><br>
-        <p class="page-title-sub">At CashForCameras we pay top dollar for new and used<br>
+        <p id="page-title-about-txt">At CashForCameras we pay top dollar for new and used<br>
         cameras, lenses, drones and video equipment.
         </p>
 			</div>
@@ -185,8 +155,8 @@
             <div class="heading-block">
               <h1>Trusted</h1>
             </div>
-            <div>
-                <ul class="value-subtext iconlist" style="max-width: 400px; margin: auto; text-align: justify;">
+            <div style="max-width: 430px; margin: auto; text-align: justify;">
+                <ul class="value-subtext iconlist">
                   <li><i class="icon-checkbox-checked"></i>Over 5000 positive customer reviews</li>
                   <li><i class="icon-checkbox-checked"></i>A+ Rated by the Better Business Bureau.</li>
                   <li><i class="icon-checkbox-checked"></i>Verified Paypal Business since 2001.</li>
@@ -235,7 +205,7 @@
           <div style="position: relative;">
 						<img src="gallery/9.jpg" alt="" class="contact-image">
 						<div class="contact-section dark" style="background-color: #333333;">
-              <h2 style="margin-bottom: 10px;">Our Headquarters</h2>
+              <h1 style="margin-bottom: 10px;">Our Headquarters</h1>
               <span>Stop by for an in person cash offer quote!</span>
 							<div style="font-size: 15px; line-height: 1.7; margin-top: 20px;">
 								<address style="line-height: 1.7;">
@@ -246,14 +216,14 @@
 								</span>
                 </address>
                 <span class="t700">Hours:</span><br>
-								<span class="h6 text-white ls1 t400">
-									Mon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30am - 4:30pm<br>
-									Tue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30am - 4:30pm<br>
-									Wed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30am - 4:30pm<br>
-                  Thu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30am - 4:30pm<br>
-                  Fri &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30am - 4:30pm<br>
-                  Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed<br>
-                  Sun &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed<br><br>
+								<span class="h6 text-white ls1 t400" id="hq-hours">
+									Mon - Fri:&nbsp; 9:30am - 4:30pm<br>
+									<!-- Tue &nbsp;&nbsp;&nbsp;&nbsp;9:30am-4:30pm<br>
+									Wed &nbsp;&nbsp;&nbsp;9:30am-4:30pm<br>
+                  Thu &nbsp;&nbsp;&nbsp;&nbsp;9:30am-4:30pm<br>
+                  Fri &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:30am-4:30pm<br> -->
+                  Sat / Sun:&nbsp; Closed<br>
+                  <!-- Sun &nbsp;&nbsp;&nbsp;&nbsp;Closed<br><br> -->
 								</span>
 							</div>
 						</div>
