@@ -121,9 +121,12 @@ let black = #333333;
 }
 
 #page-title-about-txt {
-	font-size: 23px;
-	font-weight: 500;
-	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #777;
+	margin: 0 auto;
+	max-width: 550px;
+	letter-spacing: 1px;
 }
 #quote-text {
 	font-size: 20px;
@@ -225,10 +228,11 @@ let black = #333333;
 }
 
 .page-title-sub {
-	font-size: 23px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	max-width: 650px
+	color: #606060;
+	font-size: 20px;
+	font-weight: 400;
+	max-width: 750px;
+	letter-spacing: 1px;
 }
 
 .yelp-font {
@@ -263,7 +267,8 @@ let black = #333333;
 
 #faq-sub-title {
 	max-width: 475px;
-	margin: 0 auto;
+	margin: 10 0 0 0;
+	letter-spacing: 1px;
 }
 
 /* ----------------------------------------------------------------
@@ -448,7 +453,7 @@ let black = #333333;
 	font-weight: 400;
 	font-size: 44px;
 	color: #03A739;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 #page-title-env-mis {
@@ -4159,9 +4164,9 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 #page-title h1 {
 	padding: 0;
 	margin: 0;
-	line-height: 1;
-	font-weight: 600;
-	letter-spacing: 1px;
+	line-height: 1.5;
+	font-weight: 500;
+	letter-spacing: 2px;
 	color: #333;
 	font-size: 36px;
 	text-transform: uppercase;
@@ -4265,8 +4270,8 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 }
 
 #page-title.page-title-parallax h1 {
-	font-size: 40px;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 500;
 	letter-spacing: 2px;
 }
 
@@ -12130,7 +12135,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	text-transform: none;
 }
 
-.heading-block h1 { font-size: 32px; }
+.heading-block h1 { font-size: 36px; }
 
 .heading-block h2 { font-size: 30px; }
 
@@ -12956,7 +12961,7 @@ button.toast-close-button {
 
 .footer-logo {
 	display: block;
-	height: 40px;
+	height: 75px;
 	margin-bottom: 10px;
 }
 
