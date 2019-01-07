@@ -21,11 +21,11 @@
 
 	<!-- Favicon
 	============================================= -->
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/site.webmanifest">
-	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
@@ -54,8 +54,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
-						<a href="index.html" class="retina-logo"><img src="images/CashForCameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="http://www.cashforcameras.com/" class="standard-logo"><img src="images/cashforcameras-logo.png" alt="CashForCameras Logo"></a>
+						<a href="http://www.cashforcameras.com/" class="retina-logo"><img src="images/cashforcameras-logo.png" alt="CashForCameras Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -63,28 +63,28 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li><a href="index.html">
+							<li><a href="http://www.cashforcameras.com/">
 									<div>Home</div>
 								</a></li>
 							<li><a href="http://www.cashforcameras.com/cash-offer-form/a/1">
 									<div>Cash Offer Form</div>
 								</a></li>
-							<li><a href="how-it-works.html">
+							<li><a href="how-it-works">
 									<div>How it Works</div>
 								</a></li>
-							<li><a href="frequently-asked-questions.html">
+							<li><a href="frequently-asked-questions">
 									<div>Frequently Asked Questions</div>
 								</a></li>
-							<li><a href="customer-reviews.html">
+							<li><a href="customer-reviews">
 									<div>Customer Reviews</div>
 								</a></li>
-							<li><a href="about-us.html">
+							<li><a href="about-us">
 									<div>About Us</div>
 								</a></li>
-							<li class="current"><a href="our-environmental-mission.html">
+							<li class="current"><a href="our-environmental-mission">
 									<div>Our Environmental Mission</div>
 								</a></li>
-							<li><a href="contact-us.html">
+							<li><a href="contact-us">
 									<div>Contact Us</div>
 								</a></li>
 						</ul>
@@ -175,7 +175,7 @@
 						<!-- Logo
 					============================================= -->
 						<div>
-							<a href="index.html"><img src="images/cashforcameras-logo-footer.png" class="footer-logo" alt="Cash For Cameras Logo"></a>
+							<a href="http://www.cashforcameras.com/"><img src="images/cashforcameras-logo-footer.png" class="footer-logo" alt="Cash For Cameras Logo"></a>
 							<p class="footer-logo-text">We pay top dollar for your cameras,<br>
 							lenses, drones and video equipment.</p>
 						</div>
@@ -190,8 +190,8 @@
 									<h4 class="text-light">Get Started</h4>
 									<ul>
 										<li><a href="http://www.cashforcameras.com/cash-offer-form/a/1">Cash Offer Form</a></li>
-										<li><a href="how-it-works.html">How it Works</a></li>
-										<li><a href="frequently-asked-questions.html">Frequently Asked Questions</a></li>
+										<li><a href="how-it-works">How it Works</a></li>
+										<li><a href="frequently-asked-questions">Frequently Asked Questions</a></li>
 									</ul>
 								</div>
 							</div>
@@ -199,10 +199,10 @@
 								<div class="widget widget_links clearfix">
 									<h4 class="text-light">Learn More</h4>
 									<ul>
-										<li><a href="customer-reviews.html">Customer Reviews</a></li>
-										<li><a href="about-us.html">About Us</a></li>
-										<li><a href="our-environmental-mission.html">Our Environmental Mission</a></li>
-										<li><a href="contact-us.html">Contact Us</a></li>
+										<li><a href="customer-reviews">Customer Reviews</a></li>
+										<li><a href="about-us">About Us</a></li>
+										<li><a href="our-environmental-mission">Our Environmental Mission</a></li>
+										<li><a href="contact-us">Contact Us</a></li>
 									</ul>
 								</div>
 							</div>
